@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Light Mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/forestbackground2</item>
+    </style>
+
+    <!-- Dark Mode -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@drawable/darkforestbackground</item>
+    </style>
+
+</resources>

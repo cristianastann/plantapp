@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- captured/uploaded image -->
+    <ImageView
+        android:id="@+id/ivPlantImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- plant info -->
+    <TextView
+        android:id="@+id/tvPlantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPlantImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/font_lato"
+        android:text="Plant Name: "
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/tvPlantInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPlantName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="23dp"
+        android:text="Plant Info: "
+        android:textSize="16dp"
+        android:fontFamily="@font/font_lato"/>
+
+    <TextView
+        android:id="@+id/tvPlantCare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPlantInfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/font_lato"
+        android:text="Care Instructions: "
+        android:textSize="16dp" />
+
+</RelativeLayout>
